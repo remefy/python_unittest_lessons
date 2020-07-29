@@ -11,3 +11,6 @@ class PlusFunctionTestCase(TestCase):
 
     def test_1555_plus_1445_return_3000(self):
         self.assertEqual(3000, plus(1555, 1445))
+
+    def test_100_plus_100_return_200(self):
+        self.assertEqual(200, plus(100, 100))
